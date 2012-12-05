@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4D5226D166EE60A0084E253 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5226C166EE60A0084E253 /* UIKit.framework */; };
+		F4D5226F166EE60A0084E253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D5226E166EE60A0084E253 /* Foundation.framework */; };
+		F4D52271166EE60A0084E253 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D52270166EE60A0084E253 /* CoreGraphics.framework */; };
+		F4D52277166EE60A0084E253 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4D52275166EE60A0084E253 /* InfoPlist.strings */; };
+		F4D52279166EE60A0084E253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D52278166EE60A0084E253 /* main.m */; };
+		F4D5227D166EE60A0084E253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D5227C166EE60A0084E253 /* AppDelegate.m */; };
+		F4D5227F166EE60A0084E253 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D5227E166EE60A0084E253 /* Default.png */; };
+		F4D52281166EE60A0084E253 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D52280166EE60A0084E253 /* Default@2x.png */; };
+		F4D52283166EE60A0084E253 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D52282166EE60A0084E253 /* Default-568h@2x.png */; };
+		F4D52286166EE60A0084E253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D52285166EE60A0084E253 /* ViewController.m */; };
+		F4D52289166EE60A0084E253 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D52287166EE60A0084E253 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4D52268166EE60A0084E253 /* VPlayer-i18n-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPlayer-i18n-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D5226C166EE60A0084E253 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4D5226E166EE60A0084E253 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4D52270166EE60A0084E253 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4D52274166EE60A0084E253 /* VPlayer-i18n-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPlayer-i18n-iOS-Info.plist"; sourceTree = "<group>"; };
+		F4D52276166EE60A0084E253 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4D52278166EE60A0084E253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4D5227A166EE60A0084E253 /* VPlayer-i18n-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPlayer-i18n-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		F4D5227B166EE60A0084E253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4D5227C166EE60A0084E253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4D5227E166EE60A0084E253 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F4D52280166EE60A0084E253 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F4D52282166EE60A0084E253 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F4D52284166EE60A0084E253 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4D52285166EE60A0084E253 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4D52288166EE60A0084E253 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D52265166EE60A0084E253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D5226D166EE60A0084E253 /* UIKit.framework in Frameworks */,
+				F4D5226F166EE60A0084E253 /* Foundation.framework in Frameworks */,
+				F4D52271166EE60A0084E253 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D5225D166EE60A0084E253 = {
+			isa = PBXGroup;
+			children = (
+				F4D52272166EE60A0084E253 /* VPlayer-i18n-iOS */,
+				F4D5226B166EE60A0084E253 /* Frameworks */,
+				F4D52269166EE60A0084E253 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D52269166EE60A0084E253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D52268166EE60A0084E253 /* VPlayer-i18n-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D5226B166EE60A0084E253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5226C166EE60A0084E253 /* UIKit.framework */,
+				F4D5226E166EE60A0084E253 /* Foundation.framework */,
+				F4D52270166EE60A0084E253 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D52272166EE60A0084E253 /* VPlayer-i18n-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4D5227B166EE60A0084E253 /* AppDelegate.h */,
+				F4D5227C166EE60A0084E253 /* AppDelegate.m */,
+				F4D52284166EE60A0084E253 /* ViewController.h */,
+				F4D52285166EE60A0084E253 /* ViewController.m */,
+				F4D52287166EE60A0084E253 /* ViewController.xib */,
+				F4D52273166EE60A0084E253 /* Supporting Files */,
+			);
+			path = "VPlayer-i18n-iOS";
+			sourceTree = "<group>";
+		};
+		F4D52273166EE60A0084E253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4D52274166EE60A0084E253 /* VPlayer-i18n-iOS-Info.plist */,
+				F4D52275166EE60A0084E253 /* InfoPlist.strings */,
+				F4D52278166EE60A0084E253 /* main.m */,
+				F4D5227A166EE60A0084E253 /* VPlayer-i18n-iOS-Prefix.pch */,
+				F4D5227E166EE60A0084E253 /* Default.png */,
+				F4D52280166EE60A0084E253 /* Default@2x.png */,
+				F4D52282166EE60A0084E253 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4D52267166EE60A0084E253 /* VPlayer-i18n-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D5228C166EE60A0084E253 /* Build configuration list for PBXNativeTarget "VPlayer-i18n-iOS" */;
+			buildPhases = (
+				F4D52264166EE60A0084E253 /* Sources */,
+				F4D52265166EE60A0084E253 /* Frameworks */,
+				F4D52266166EE60A0084E253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VPlayer-i18n-iOS";
+			productName = "VPlayer-i18n-iOS";
+			productReference = F4D52268166EE60A0084E253 /* VPlayer-i18n-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D5225F166EE60A0084E253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "erlz nuo";
+			};
+			buildConfigurationList = F4D52262166EE60A0084E253 /* Build configuration list for PBXProject "VPlayer-i18n-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4D5225D166EE60A0084E253;
+			productRefGroup = F4D52269166EE60A0084E253 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D52267166EE60A0084E253 /* VPlayer-i18n-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D52266166EE60A0084E253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D52277166EE60A0084E253 /* InfoPlist.strings in Resources */,
+				F4D5227F166EE60A0084E253 /* Default.png in Resources */,
+				F4D52281166EE60A0084E253 /* Default@2x.png in Resources */,
+				F4D52283166EE60A0084E253 /* Default-568h@2x.png in Resources */,
+				F4D52289166EE60A0084E253 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D52264166EE60A0084E253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D52279166EE60A0084E253 /* main.m in Sources */,
+				F4D5227D166EE60A0084E253 /* AppDelegate.m in Sources */,
+				F4D52286166EE60A0084E253 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4D52275166EE60A0084E253 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D52276166EE60A0084E253 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4D52287166EE60A0084E253 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D52288166EE60A0084E253 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4D5228A166EE60A0084E253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4D5228B166EE60A0084E253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4D5228D166EE60A0084E253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPlayer-i18n-iOS/VPlayer-i18n-iOS-Prefix.pch";
+				INFOPLIST_FILE = "VPlayer-i18n-iOS/VPlayer-i18n-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4D5228E166EE60A0084E253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPlayer-i18n-iOS/VPlayer-i18n-iOS-Prefix.pch";
+				INFOPLIST_FILE = "VPlayer-i18n-iOS/VPlayer-i18n-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D52262166EE60A0084E253 /* Build configuration list for PBXProject "VPlayer-i18n-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5228A166EE60A0084E253 /* Debug */,
+				F4D5228B166EE60A0084E253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D5228C166EE60A0084E253 /* Build configuration list for PBXNativeTarget "VPlayer-i18n-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D5228D166EE60A0084E253 /* Debug */,
+				F4D5228E166EE60A0084E253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D5225F166EE60A0084E253 /* Project object */;
+}

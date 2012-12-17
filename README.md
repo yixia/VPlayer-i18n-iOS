@@ -1,6 +1,9 @@
+
 VPlayer Res for iOS
 ===================
 VPlayer-i18n-iOS is an standalone resource library used in VPlayer. Look for foreign friend help us to translate the strings.
+
+Https://vplayer.net
 
 Values naming rules
 ===================

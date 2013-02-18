@@ -1,6 +1,9 @@
+
 VPlayer Res for iOS
 ===================
 VPlayer-i18n-iOS is an standalone resource library used in VPlayer. Look for foreign friend help us to translate the strings.
+
+https://vplayer.net
 
 Values naming rules
 ===================
@@ -13,7 +16,8 @@ Quantity Strings (Plurals)
 
 Acknowledgement
 ===============
-1. Slovakia: lumiresku@gmail.com
+1. Slovakia: Lumir Strauch
+2. Japanese: 田中 龍之介 
 
 [1]: http://www.loc.gov/standards/iso639-2/php/code_list.php
 [2]: http://www.iso.org/iso/prods-services/iso3166ma/02iso-3166-code-lists/country_names_and_code_elements

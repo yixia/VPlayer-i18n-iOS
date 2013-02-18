@@ -66,6 +66,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F46FE8C016D1C40E000B8801 /* jp.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jp.lproj;
+			sourceTree = "<group>";
+		};
 		F4D5225D166EE60A0084E253 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +148,7 @@
 		F4D5229B166EE72F0084E253 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				F46FE8C016D1C40E000B8801 /* jp.lproj */,
 				F4D5229C166EE72F0084E253 /* Localizable.strings */,
 			);
 			path = String;
@@ -192,6 +200,7 @@
 				"zh-Hant",
 				fi,
 				pt,
+				jp,
 			);
 			mainGroup = F4D5225D166EE60A0084E253;
 			productRefGroup = F4D52269166EE60A0084E253 /* Products */;
